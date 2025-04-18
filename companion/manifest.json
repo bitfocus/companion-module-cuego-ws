@@ -1,0 +1,25 @@
+{
+	"id": "cuego-ws",
+	"name": "CueGO",
+	"shortname": "CueGo",
+	"description": "Live controller for a CueGO.live workspace.",
+	"version": "0.9.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/bitfocus/companion-module-cuego-ws.git",
+	"bugs": "https://github.com/bitfocus/companion-module-cuego-ws/issues",
+	"maintainers": [
+		{
+			"name": "Matt Mills"
+		}
+	],
+	"legacyIds": [],
+	"runtime": {
+		"type": "node18",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../main.js"
+	},
+	"manufacturer": "FireFli",
+	"products": ["CueGO.live"],
+	"keywords": ["CueGO"]
+}
